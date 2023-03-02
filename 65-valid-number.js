@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/valid-number/submissions/907924320/
 // const isNumber = function (s) {
 //   for (let i = 0; i < s.length; i++) {
 //     // if (s[i] === '-') return true;
@@ -89,7 +90,7 @@
 // };
 
 
-const isNumber = function(s) {
+const isNumber = function (s) {
     return /^(((\+|\-)?((\d*\.?\d+)|(\d+\.\d*)|(\d+e(\+|\-)?\d+)|(\d+\.\d+e(\+|\-)?\d+)|(\d+\.\d*e(\+|\-)?\d+)|(\d+\.\d*e(\+|\-)?\d+)|(\d*\.\d+e(\+|\-)?\d+))))$/ig.test(s)
 };
 console.log(isNumber('53.5e93'));
